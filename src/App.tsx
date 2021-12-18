@@ -2,7 +2,7 @@ import './App.css';
 
 import { reactLogo } from 'assets/images';
 
-function App() {
+export const App = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -16,6 +16,4 @@ function App() {
       </header>
     </div>
   );
-}
-
-export default App;
+};
